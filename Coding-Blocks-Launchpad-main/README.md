@@ -1,4 +1,4 @@
-# C++ Launchpad – Sage University
+# C++ Launchpad – Aditya University
 
 Welcome to the official repository for the **C++ Launchpad** course by **Coding Blocks**, conducted at **Sage University**. This repository is designed to help students stay updated with all the learning materials covered in class.
 
