@@ -4,8 +4,7 @@ using namespace std;
 int main() {
     int number1, number2; 
 
-    // Prompt the user to enter two numbers
-    cout << "Enter two numbers: ";
+    cout << "Enter two numbers: " ;
     cin >> number1 >> number2; // Read both numbers from user input
 
     // Compare the two numbers
