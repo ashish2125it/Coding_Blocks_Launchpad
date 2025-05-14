@@ -1,0 +1,46 @@
+#include <iostream>
+#include <bits/stdc++.h>  // For using sort and pow functions
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;  // Input the number of elements in the array
+    
+    int arr[n];  // Declare an array of size 'n'
+    
+    // Step 1: Input the elements of the array
+    for (int i = 0; i < n; i++) 
+        cin >> arr[i];  // Input the elements of the array
+
+    // Step 2: Square each element of the array
+    for (int i = 0; i < n; i++) 
+        arr[i] = pow(arr[i], 2);  // Square each element in the array
+    
+    // Step 3: Sort the array in non-decreasing order
+    sort(arr, arr + n);  // Sort the squared elements
+
+    // Step 4: Output the sorted array
+    for (int i = 0; i < n; i++) 
+        cout << arr[i] << " ";  // Print the elements of the sorted array
+    
+    cout << endl;  // Print a new line after the output
+
+    return 0;
+}
+
+/*
+Example:
+
+Input:
+5
+-4 -1 0 3 10
+
+Explanation:
+1. The input array is: [-4, -1, 0, 3, 10]
+2. After squaring the elements, the array becomes: [16, 1, 0, 9, 100]
+3. Sorting the array gives: [0, 1, 9, 16, 100]
+4. The sorted array is printed: 0 1 9 16 100
+
+Output:
+0 1 9 16 100
+*/
