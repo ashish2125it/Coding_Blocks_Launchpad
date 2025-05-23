@@ -61,6 +61,6 @@ int main() {
     } else {
         cout << "First Occurrence = " << firstOccurrence << endl; // Print first occurrence
     }
-
-    return 0;                                  
+   
+    return 0;                                
 }
